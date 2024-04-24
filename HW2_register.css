@@ -1,0 +1,14 @@
+input {
+    background-color:lightgray;
+    margin:10px;
+    padding:15px;
+    width:1000px;
+}
+#Register {
+    background-color: turquoise;
+    color:white;
+    padding:15px;
+    margin:15px;
+    cursor:pointer;
+    width:1050px;
+}

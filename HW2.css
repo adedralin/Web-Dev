@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 160px 1fr 160px;
+    grid-template-areas:
+        "Header Header Header"
+        "Navigation Content Ads"
+        "Navigation Footer Footer";
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#item-1 {
+    grid-area: Header;
+    text-align: center;
+    padding: 1.2em;
+    background-color: red;
+    border: 2px solid black;
+}
+#item-2 {
+    grid-area: Content;
+    padding: 1.2em;
+    background-color: gray;
+    border: 2px solid black;
+}
+#item-3 {
+    grid-area: Ads;
+    padding: 1.2em;
+    background-color: yellow;
+    border: 2px solid black;
+}
+#item-4 {
+    grid-area: Footer;
+    padding: 1.2em;
+    background-color: green;
+    border: 2px solid black;
+}
+#item-5 {
+    grid-area: Navigation;
+    padding: 1.2em;
+    background-color: orange;
+    border: 2px solid black;
+}
